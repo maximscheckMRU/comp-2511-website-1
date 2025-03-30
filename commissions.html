@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scheck & Atelier Commissions"> <!-- meta tag [9] -->
+    <title>Commissions - Scheck & Atelier</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div id="top"></div>
+    <header>
+        <div class="header">
+            <h1>
+                Scheck & Atelier
+            </h1>
+        </div>
+    </header>
+    <br>
+    <nav class="links">
+        <a href="index.html"><span>Home</span></a> |
+        <a href="gallery.html"><span>Gallery</span></a> |
+        <a href="commissions.html" class="active"><span>Commissions</span></a>
+    </nav>
+    <br>
+    <main>
+        <article class="form">
+        <form id="formOne" method="post" action="mailto:msche757@mtroyal.ca">
+            <h2>Commissions Form</h2>
+        <label>Name:</label>
+
+        <br>
+        <select name="salutation" id="salutation">
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mrs.">Mrs.</option>
+        </select>
+
+        <input type="text" id="firstName" name="firstName" placeholder="First" required autofocus>
+
+        <input type="text" id="lastName" name="lastName" placeholder="Last" required>
+
+        <br>
+        <br>
+        <label>Phone Number:</label>
+        <br>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+        <br>
+        <br>
+        <label>Email:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="name@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required> <!-- email pattern [8] -->
+
+        <br>
+        <br>
+        <label>Subject:</label>
+        <br>
+        <input type="text" id="subject" name="subject" placeholder="Purpose of email." required>
+
+        <br>
+        <br>
+        <label>Body:</label>
+        <br>
+        <textarea rows="5" cols="50" id="body" name="body" placeholder="Please provide as many details as possible." required>
+        </textarea>
+
+        <br>
+        <br>
+        <input type="radio" id="bowl" name="project" required>
+        <label>Bowl</label>
+
+        <br>
+        <input type="radio" id="coaster" name="project" required>
+        <label>Coaster</label>
+
+        <br>
+        <input type="radio" id="cuttingBoard" name="project" required>
+        <label>Cutting Board</label>
+
+        <br>
+        <input type="radio" id="mortarAndPestle" name="project" required>
+        <label>Mortar & Pestle</label>
+
+        <br>
+        <input type="radio" id="Chair" name="project" required>
+        <label>Chair</label>
+
+        <br>
+        <br>
+        <input type="checkbox" id="ash" name="ash" value="ash">
+        <label>Ash</label>
+
+        <br>
+        <input type="checkbox" id="cherry" name="cherry" value="cherry">
+        <label>Cherry</label>
+
+        <br>
+        <input type="checkbox" id="ebony" name="ebony" value="ebony">
+        <label>Ebony</label>
+
+        <br>
+        <input type="checkbox" id="mahogany" name="mahogany" value="mahogany">
+        <label>Mahogany</label>
+
+        <br>
+        <input type="checkbox" id="maple" name="maple" value="maple">
+        <label>Maple</label>
+
+        <br>
+        <input type="checkbox" id="purpleheart" name="purpleheart" value="purpleheart">
+        <label>Purpleheart</label>
+
+        <br>
+        <input type="checkbox" id="walnut" name="walnut" value="walnut">
+        <label>Walnut</label>
+
+        <br>
+        <input type="checkbox" id="zebrawood" name="zebrawood" value="zebrawood">
+        <label>Zebrawood</label>
+
+        <br>
+        <br>
+        <a href="https://blackforestwood.com/" target="_blank" >Where I source my material</a> <!-- open in new tab [5] -->
+
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td colspan="2">Lead Time For Commissions</td>
+            </tr>
+            <tr>
+                <td>Bowl</td>
+                <td>3 Weeks</td>
+            </tr>
+            <tr>
+                <td>Coaster</td>
+                <td>1 Week</td>
+            </tr>
+            <tr>
+                <td>Cutting Board</td>
+                <td>2 Weeks</td>
+            </tr>
+            <tr>
+                <td>Mortar & Pestle</td>
+                <td>4 Weeks</td>
+            </tr>
+            <tr>
+                <td>Chair</td>
+                <td>5 Weeks</td>
+            </tr>
+
+        </table>
+
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <br>
+        <br>
+        </form>
+        </article>
+    </main>
+    <br>
+    <div class="jump">
+        <a href="#top">Jump to top</a>
+    </div>
+    <br>
+    <footer class="footer">
+        <img src="images/logo.jpg" alt="Logo">
+        <br>
+        &copy; Maxim Scheck, 2025.
+    </footer>
+</body>
+</html>
